@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Untitled Document</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <div class="container container-custom">
+    <div class="row row-shadow">
+
+
+      <div class="col-lg-7 login-custom-1">
+
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="jh.svg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="ab.svg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/cl.svg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- <img class="card-img-top" src="ga.svg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div> -->
+      </div>
+
+
+      <!-- -------------------------------------------------------------------------------------------- -->
+
+      <div class="col-lg-5 login-custom-2">
+
+          <div class="card-header card shadow-sm ">
+
+            <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+
+              <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                <li class="nav-item"> <a data-toggle="pill" href="#login" id="login-tab" class="nav-link active "
+                    role="tab"> <i class="fas fa-credit-card mr-2"></i> Login </a> </li>
+
+                <li class="nav-item"> <a data-toggle="pill" href="#register" id="register-tab" class="nav-link "
+                    role="tab"> <i class="fab fa-paypal mr-2"></i> Register </a> </li>
+              </ul>
+            </div>
+            <div class="tab-content">
+              <div id="login" class="tab-pane fade show active pt-3" role="tabpanel">
+                <form role="form">
+                  <div class="form-group"> <label for="username">
+                      <h6>Username or Number</h6>
+                    </label> <input type="text" name="username" placeholder="Enter your username or number" required
+                      class="form-control ">
+                  </div>
+                  <div class="form-group"> <label for="password">
+                      <h6>Password</h6>
+                    </label>
+                    <div class="input-group"> <input type="text" name="password" placeholder="Enter your password"
+                        class="form-control " required>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between">
+
+                    
+                    <div class="custom-control form-group custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1" unchecked>
+                      <label class="custom-control-label" for="customCheck1"><h6>Remember me</h6></label>
+                    </div>
+                    <h6 class="form-group text-primary"> Forgot your password?</h6>
+                  </div>
+
+                  
+                  
+                  <button type="button" class=" form-group btn btn-primary btn-block shadow-sm">Login</button>
+                </form>
+                
+              </div>
+
+
+
+
+              <div id="register" role="tabpanel" class="tab-pane fade pt-3">
+                <div role="form">
+                  
+                  <div class="form-group"> <label for="username">
+                      <h6>Full Name</h6>
+                    </label> 
+                    <input type="text" name="username" placeholder="Enter your Full Name" required
+                      class="form-control ">
+                  </div>
+                  <div class="form-group"> <label for="username">
+                      <h6>Phone Number</h6>
+                    </label> <input type="text" name="username" placeholder="Enter your phone number" required
+                      class="form-control ">
+                  </div>
+                  <div class="form-group"> <label for="username">
+                      <h6>Date of Birth</h6>
+                    </label> <input type="text" name="username" placeholder="dd/mm/yyyy" required
+                      class="form-control ">
+                  </div>
+                  <div class="form-group"> <label for="username">
+                      <h6>GST Number</h6>
+                    </label> <input type="text" name="username" placeholder="GST" required
+                      class="form-control ">
+                  </div>
+                  <div class="form-group"> <label for="password">
+                      <h6>Address</h6>
+                    </label>
+                    <div class="input-group"> <input type="text" name="password" placeholder="Full Address""
+                        class="form-control " required>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-between">
+                    <div class="form-group"> <label for="username">
+                        <h6>State</h6>
+                      </label> <input type="text" name="username" placeholder="Select State" required
+                        class="form-control ">
+                    </div>
+                    <div class="form-group"> <label for="username">
+                      <h6>Pincode</h6>
+                    </label> <input type="text" name="username" placeholder="" required
+                      class="form-control ">
+                  </div>
+                </div>
+                    <div class="form-group"> <label for="username">
+                        <h6>City</h6>
+                      </label> <input type="text" name="username" placeholder="Select City" required
+                        class="form-control ">
+                    </div>
+                    <div class="custom-control form-group custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1" unchecked>
+                      <label class="custom-control-label" for="customCheck1"><h6>I agree to the onlane TOS and Privacy Policy</h6></label>
+                    </div>
+
+
+
+
+
+
+                  
+                  
+                  <button type="button" class=" form-group btn btn-primary btn-block shadow-sm">Register</button>
+                </div>
+                </div>
+            </div>
+          </div>
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <canvas class="background"></canvas>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+
+      <script src="/index.js"></script>
+      
+</body>
+
+</html>
