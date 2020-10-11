@@ -27,12 +27,12 @@ body {
     padding: 5%;
     background: #FFF;
 }
-
+/* 
 img {
     height: auto;
     width: 100%;
     object-fit: cover; // here
-}
+} */
 
 .carousel-indicators li {
         width: .8rem;
@@ -71,7 +71,7 @@ body {
 /* .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
   } */
-  h6{
+  /* h6{
         font-size:
       
-  }
+  } */
