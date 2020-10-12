@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #f9faffb7;
+    background-color: #f9f9ff;
 }
 
 .row-shadow {
@@ -27,11 +27,11 @@ body {
     padding: 5%;
     background: #FFF;
 }
-/* 
-img {
+
+/* img {
     height: auto;
     width: 100%;
-    object-fit: cover; // here
+    object-fit: cover;
 } */
 
 .carousel-indicators li {
@@ -52,7 +52,7 @@ img {
 
 
 
-    html,
+html,
 body {
   margin: 0;
   padding: 0;
@@ -67,11 +67,23 @@ body {
   z-index: -1;
 }
 
+.card-header {
+    background-color:white;
+    /* background-color:#f9f9ff; */
+}
+
+
+.card-custom{
+    background-color: white;
+}
+
+
+
+
 
 /* .text-responsive {
     font-size: calc(100% + 1vw + 1vh);
   } */
   /* h6{
         font-size:
-      
-  } */
+        } */
