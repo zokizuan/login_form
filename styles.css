@@ -9981,8 +9981,6 @@ body {
 
 a.lab {
   position: relative;
-  display: inline-block;
-  padding: 5px 10px;
   color: #EA1B6B;
   font-family: "Noto Sans JP";
   text-decoration: none;
