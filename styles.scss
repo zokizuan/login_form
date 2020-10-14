@@ -8,6 +8,7 @@ $theme-colors: (
 );
 
 $enable-responsive-font-sizes:true;
+$font-size-base:.875rem;
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
